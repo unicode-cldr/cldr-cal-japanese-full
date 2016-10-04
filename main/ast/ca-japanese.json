@@ -3,8 +3,8 @@
     "ast": {
       "identity": {
         "version": {
-          "_number": "$Revision: 12411 $",
-          "_cldrVersion": "29"
+          "_number": "$Revision: 12876 $",
+          "_cldrVersion": "30"
         },
         "language": "ast"
       },
@@ -233,7 +233,7 @@
                 },
                 "wide": {
                   "am": "de la mañana",
-                  "pm": "de la tardi"
+                  "pm": "de la tarde"
                 }
               },
               "stand-alone": {
@@ -247,7 +247,7 @@
                 },
                 "wide": {
                   "am": "mañana",
-                  "pm": "tardi"
+                  "pm": "tarde"
                 }
               }
             },
@@ -744,9 +744,9 @@
                 "12": "T. shōhō",
                 "13": "T. hōji",
                 "14": "T. jingo",
-                "15": "Jingo-keiun (767-770)",
+                "15": "Jingo-keiun (767–770)",
                 "16": "Hōki (770–780)",
-                "17": "Ten-ō (781-782)",
+                "17": "Ten-ō (781–782)",
                 "18": "Enryaku (782–806)",
                 "19": "Daidō (806–810)",
                 "20": "Kōnin (810–824)",
@@ -807,7 +807,7 @@
                 "75": "Chōji (1104–1106)",
                 "76": "Kashō (1106–1108)",
                 "77": "Tennin (1108–1110)",
-                "78": "Ten-ei (1110-1113)",
+                "78": "Ten-ei (1110–1113)",
                 "79": "Eikyū (1113–1118)",
                 "80": "Gen’ei (1118–1120)",
                 "81": "Hōan (1120–1124)",
