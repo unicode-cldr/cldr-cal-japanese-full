@@ -3,8 +3,8 @@
     "so": {
       "identity": {
         "version": {
-          "_number": "$Revision: 13869 $",
-          "_cldrVersion": "33"
+          "_number": "$Revision: 14394 $",
+          "_cldrVersion": "34"
         },
         "language": "so"
       },
@@ -18,14 +18,14 @@
                   "2": "Lab",
                   "3": "Sad",
                   "4": "Afr",
-                  "5": "Sha",
-                  "6": "Lix",
-                  "7": "Tod",
-                  "8": "Sid",
-                  "9": "Sag",
-                  "10": "Tob",
-                  "11": "KIT",
-                  "12": "LIT"
+                  "5": "May",
+                  "6": "Juun",
+                  "7": "Luuliyo",
+                  "8": "Og",
+                  "9": "Sebtembar",
+                  "10": "Oktoobar",
+                  "11": "Nofembar",
+                  "12": "Dec"
                 },
                 "narrow": {
                   "1": "K",
@@ -58,46 +58,46 @@
               },
               "stand-alone": {
                 "abbreviated": {
-                  "1": "Kob",
-                  "2": "Lab",
-                  "3": "Sad",
-                  "4": "Afr",
-                  "5": "Sha",
-                  "6": "Lix",
-                  "7": "Tod",
-                  "8": "Sid",
-                  "9": "Sag",
-                  "10": "Tob",
-                  "11": "KIT",
-                  "12": "LIT"
+                  "1": "Jan",
+                  "2": "Feb",
+                  "3": "Mar",
+                  "4": "Abr",
+                  "5": "May",
+                  "6": "Juun",
+                  "7": "Luuliyo",
+                  "8": "Og",
+                  "9": "Seb",
+                  "10": "Okt",
+                  "11": "Nof",
+                  "12": "Des"
                 },
                 "narrow": {
-                  "1": "1",
-                  "2": "2",
-                  "3": "3",
-                  "4": "4",
-                  "5": "5",
-                  "6": "6",
-                  "7": "7",
-                  "8": "8",
-                  "9": "9",
-                  "10": "10",
-                  "11": "11",
-                  "12": "12"
+                  "1": "J",
+                  "2": "F",
+                  "3": "M",
+                  "4": "A",
+                  "5": "M",
+                  "6": "J",
+                  "7": "L",
+                  "8": "O",
+                  "9": "S",
+                  "10": "O",
+                  "11": "N",
+                  "12": "D"
                 },
                 "wide": {
-                  "1": "Bisha Koobaad",
-                  "2": "Bisha Labaad",
-                  "3": "Bisha Saddexaad",
-                  "4": "Bisha Afraad",
-                  "5": "Bisha Shanaad",
-                  "6": "Bisha Lixaad",
-                  "7": "Bisha Todobaad",
-                  "8": "Bisha Sideedaad",
-                  "9": "Bisha Sagaalaad",
-                  "10": "Bisha Tobnaad",
-                  "11": "Bisha Kow iyo Tobnaad",
-                  "12": "Bisha Laba iyo Tobnaad"
+                  "1": "Jannaayo",
+                  "2": "Febraayo",
+                  "3": "Maarso",
+                  "4": "Abriil",
+                  "5": "May",
+                  "6": "Juun",
+                  "7": "Luuliyo",
+                  "8": "Ogost",
+                  "9": "Sebtembar",
+                  "10": "Oktoobar",
+                  "11": "Nofembar",
+                  "12": "Desembar"
                 }
               }
             },
@@ -488,7 +488,8 @@
                 "232": "Meiji",
                 "233": "Taishō",
                 "234": "Shōwa",
-                "235": "Heisei"
+                "235": "Heisei",
+                "236": "Qqqq"
               },
               "eraAbbr": {
                 "0": "Taika (645–650)",
@@ -726,7 +727,8 @@
                 "232": "Meiji",
                 "233": "Taishō",
                 "234": "Shōwa",
-                "235": "Heisei"
+                "235": "Heisei",
+                "236": "Qqqq"
               },
               "eraNarrow": {
                 "0": "Taika (645–650)",
@@ -964,14 +966,15 @@
                 "232": "M",
                 "233": "T",
                 "234": "S",
-                "235": "H"
+                "235": "H",
+                "236": "Q"
               }
             },
             "dateFormats": {
-              "full": "EEEE, MMMM dd, y G",
-              "long": "dd MMMM y G",
-              "medium": "dd-MMM-y G",
-              "short": "dd/MM/yy GGGGG"
+              "full": "G y MMMM d, EEEE",
+              "long": "G y MMMM d",
+              "medium": "G y MMM d",
+              "short": "GGGGG y-MM-dd"
             },
             "timeFormats": {
               "full": "h:mm:ss a zzzz",
@@ -1053,6 +1056,44 @@
                 "d": {
                   "d": "d–d"
                 },
+                "Gy": {
+                  "G": "G y – G y",
+                  "y": "G y–y"
+                },
+                "GyM": {
+                  "G": "GGGGG y-MM – GGGGG y-MM",
+                  "M": "GGGGG y-MM – y-MM",
+                  "y": "GGGGG y-MM – y-MM"
+                },
+                "GyMd": {
+                  "d": "GGGGG y-MM-dd – y-MM-dd",
+                  "G": "GGGGG y-MM-dd – GGGGG y-MM-dd",
+                  "M": "GGGGG y-MM-dd – y-MM-dd",
+                  "y": "GGGGG y-MM-dd – y-MM-dd"
+                },
+                "GyMEd": {
+                  "d": "GGGGG y-MM-dd, E – y-MM-dd, E",
+                  "G": "GGGGG y-MM-dd, E – GGGGG y-MM-dd, E",
+                  "M": "GGGGG y-MM-dd, E – y-MM-dd, E",
+                  "y": "GGGGG y-MM-dd, E – y-MM-dd, E"
+                },
+                "GyMMM": {
+                  "G": "G y MMM – G y MMM",
+                  "M": "G y MMM–MMM",
+                  "y": "G y MMM – y MMM"
+                },
+                "GyMMMd": {
+                  "d": "G y MMM d–d",
+                  "G": "G y MMM d – G y MMM d",
+                  "M": "G y MMM d – MMM d",
+                  "y": "G y MMM d – y MMM d"
+                },
+                "GyMMMEd": {
+                  "d": "G y MMM d, E – MMM d, E",
+                  "G": "G y MMM d, E – G y MMM d, E",
+                  "M": "G y MMM d, E – MMM d, E",
+                  "y": "G y MMM d, E – y MMM d, E"
+                },
                 "h": {
                   "a": "h a – h a",
                   "h": "h–h a"
@@ -1117,26 +1158,26 @@
                 "yMd": {
                   "d": "GGGGG y-MM-dd – y-MM-dd",
                   "M": "GGGGG y-MM-dd – y-MM-dd",
-                  "y": "GGGGG y-MM-dd – y-MM-dd"
+                  "y": "dd/MM/y – dd/MM/y"
                 },
                 "yMEd": {
-                  "d": "GGGGG y-MM-dd, E – y-MM-dd, E",
-                  "M": "GGGGG y-MM-dd, E – y-MM-dd, E",
-                  "y": "GGGGG y-MM-dd, E – y-MM-dd, E"
+                  "d": "E, dd/MM/y – E, dd/MM/y",
+                  "M": "E, dd/MM/y – E, dd/MM/y",
+                  "y": "E, dd/MM/y – E, dd/MM/y"
                 },
                 "yMMM": {
-                  "M": "G y MMM–MMM",
-                  "y": "G y MMM – y MMM"
+                  "M": "MMM–MMM y",
+                  "y": "MMM y – MMM y"
                 },
                 "yMMMd": {
-                  "d": "G y MMM d–d",
-                  "M": "G y MMM d – MMM d",
-                  "y": "G y MMM d – y MMM d"
+                  "d": "dd–dd MMM y",
+                  "M": "dd MMM – dd MMM y",
+                  "y": "dd MMM y – dd MMM y"
                 },
                 "yMMMEd": {
-                  "d": "G y MMM d, E – MMM d, E",
-                  "M": "G y MMM d, E – MMM d, E",
-                  "y": "G y MMM d, E – y MMM d, E"
+                  "d": "E, MMM dd – E, MMM dd, y",
+                  "M": "E, MMM dd – E, MMM dd, y",
+                  "y": "E, MMM dd, y – E, MMM dd, y"
                 },
                 "yMMMM": {
                   "M": "G y MMMM–MMMM",
